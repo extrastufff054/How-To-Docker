@@ -24,3 +24,14 @@
     ```
     docker run -it --name XynetContainer --cap-add=NET_ADMIN ubuntu:latest
     ```
+
+* If you want to access your Docker Container using <b>VS-Code</b> you can follow the below steps : 
+
+    * Once your container is running, you can attach VS Code to it:
+    * Open the Command Palette in VS Code (F1 or Ctrl + Shift + P).
+    * Type and select Dev-Containers: Attach to Running Container....
+    * Choose your running container from the list.
+
+    Note : You will require the [Dev-Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) and [Docker extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) in VS-Code.
+
+    
