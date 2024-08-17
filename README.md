@@ -2,7 +2,10 @@
 
 ### Steps to run a docker container in your terminal and accessing the CLI
 
-1) <b>Enable interaction (-i).
+* Open a terminal/ powershell/ command prompt according to your operating system and write the below commands as per your requirement. 
+* Ensure <b>Docker Desktop</b> is open.
+
+1) Enable interaction (-i).
     ```
     docker run -i ubuntu:latest
     ```
